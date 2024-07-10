@@ -2,7 +2,7 @@
 let student = {
 	name: 'Jaisai Pothula'
 };
-object.prototype.getkeys = function(){
-	return object.keys(this);
+Object.prototype.getkeys = function(){
+	return Object.keys(this);
 };
 console.log(student.getkeys());
