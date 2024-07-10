@@ -1,8 +1,12 @@
-//your JS code here. If required.
+// Define the student object with a property called name
 let student = {
-	name: 'Jaisai Pothula'
+  name: 'John Doe'
 };
-Object.prototype.getkeys = function(){
-	return Object.keys(this);
+
+// Add a method to the Object prototype to get all keys of any object
+Object.prototype.getKeys = function() {
+  return Object.keys(this);
 };
-console.log(student.getkeys());
+
+// Example usage:
+console.log(student.getKeys());  // Output: ["name"]
